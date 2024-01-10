@@ -1,0 +1,30 @@
+body {
+    
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    margin-bottom: 20px; 
+    margin-left: 35%;
+    margin-top: 200px;
+    
+}
+
+.display {
+    grid-column: span 4;
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: right;
+    font-size: 1.5em;
+}
+.copyright{
+text-align: center;
+}
+
+
