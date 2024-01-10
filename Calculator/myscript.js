@@ -66,6 +66,6 @@ function calculateResult() {
 }
 
 
-document.querySelector('.copyright p').innerText = ` ${new Date().getFullYear()} Copyright © AVINISH KUMAR SAH All Rights Reserved.`;
+document.querySelector('.copyright').innerText = ` ${new Date().getFullYear()} Copyright © AVINISH KUMAR SAH All Rights Reserved.`;
 
 updateDisplay();
