@@ -18,11 +18,12 @@ body {
 }
 
 .display {
-    grid-column: span 4;
+    grid-column: span 3;
     background-color: #f2f2f2;
     padding: 10px;
     text-align: right;
     font-size: 1.5em;
+    border-radius: 100px;
 }
 .copyright{
 text-align: center;
